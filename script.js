@@ -1,4 +1,4 @@
-const apiKey = '64f2ee2a8261daa4d9f780f5b365f275'; // Replace with your OpenWeatherMap API key
+const apiKey = 'dc5f93b0be9857a48befc9d217e52397'; // Replace with your OpenWeatherMap API key
 const searchBtn = document.getElementById('search-btn');
 const cityInput = document.getElementById('city-input');
 const searchHistory = document.getElementById('search-history');
@@ -59,3 +59,7 @@ function addToSearchHistory(city) {
     button.addEventListener('click', () => getWeather(city));
     searchHistory.prepend(button);
 }
+
+//had to wait for API key to be active but used one from an online repo to test my code
+// https://github.com/CodyG-2021/06-Server-Side-APIs-Weather-Dashboard/blob/main/assets/js/scripts.js 
+//the previous repo is the one i used for the api key to see if it works in my code.
