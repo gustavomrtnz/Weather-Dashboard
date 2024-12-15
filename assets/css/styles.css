@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#search-history {
+    margin-top: 20px;
+}
+
+#search-history button {
+    margin-bottom: 5px;
+}
+
+#current-weather {
+    margin-bottom: 20px;
+}
+
+.forecast-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
